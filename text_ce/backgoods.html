@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <script src="../jquery-2.1.3.js"></script>
+    <script type="text/javascript" src="../shoppingList.js"></script>
+    <script type="text/javascript" src="../shoppingItem.js"></script>
+    <script type="text/javascript" src="bindProToBSAD.js"></script>
+    <script type="text/javascript" src="addItems.js"></script>
+    <script>
+        addItem();
+    </script>
+    <title></title>
+</head>
+<body>
+<div>
+
+                        <td style="width: 1000px" id="backAddTd">
+                            <table id="backAddTable">
+                                <tr>
+                                    <td><button id="saveProduct">保存商品</button></td>
+                                    <td><input type="button" value="添加属性" onclick="location.href='addProrotype.html'"></td>                                    <td><button>删除属性</button></td>
+                                    </td><td><button>取消</button></td>
+                                </tr>
+                            </table >
+                            <form action="/example/html/form_action.asp" method="get">
+                                <p>商品名称: <input type="text" name="fname"  placeholder="请输入商品名称"/>商品数量：
+                                    <input class="min" name="" type="button" value="-" />
+                                    <input class="text_box" name="" type="text" value="0" />
+                                    <input class="add" name="" type="button" value="+" />
+                                </p>
+                                <p>单价（元）: <input type="text" name="lname" placeholder="请输入单价"/>单位: <input type="text" name="lname"  placeholder="请输入单位"/></p>
+                               <p>生产日期： <input type="text" name="lname" /></p>
+                            </form></td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+    </table>
+</div>
+</body>
+</html>
