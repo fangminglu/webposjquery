@@ -7,13 +7,20 @@
     <script type="text/javascript" src="../shoppingItem.js"></script>
     <script type="text/javascript" src="bindProToBSAD.js"></script>
     <script type="text/javascript" src="addItems.js"></script>
+    <link href="http://cdn.bootcss.com/bootstrap/3.3.2/css/bootstrap.min.css" rel="stylesheet">
+
     <script>
         addItem();
     </script>
     <title></title>
 </head>
 <body>
-<div>
+<ul class="breadcrumb">
+    <li><a href="allList.html">商品信息管理</a> <span class="divider"> >> </span></li>
+    <li><a href="backStageAddGoods.html">添加商品</a> <span class="divider"> >> </span></li>
+    <li class="active">添加属性</li>
+
+    <div>
                         <td style="width: 1000px" id="backAddTd">
                                 <form>属性名：<input name="newPrototypeName" placeholder="请输入属性名"></form>
                                 <p>属性值: <input type="text" name="fname"  placeholder="请输入该属性的属性值"/>
